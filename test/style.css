@@ -1,0 +1,292 @@
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+/* Container */
+.container {
+    width: 100%;
+    max-width: 1440px;
+    height: auto;
+    margin: 0 auto;
+    background-color: #151719;    
+}
+
+/* Header__inner */
+.header__inner {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding-left: 168px;
+    padding-right: 168px;
+}
+
+.bg__img {
+    position: absolute;
+    margin-left: -83px;
+    margin-top: 70%;   
+}
+
+.header__nav {
+    display: flex;
+    align-items: center;
+}
+
+.nav__link {
+    margin-right: 48px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.25px;   
+}
+
+.nav__link a {
+    color: #C5D2DC;
+    text-decoration: none;
+}
+.nav__link a:hover {
+    cursor: pointer;
+}
+
+.btn {
+    padding: 8px 20px;
+    background-color:  #5D5DFF;
+    border: 0;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.25px;
+    color: #FFFFFF;
+}
+
+/* Intro__inner */
+.intro__inner {
+    margin: 0 336px;
+    max-width: 1104px;
+    padding-top: 80px;
+    text-align: center;
+    margin-bottom: 64px;
+}
+
+.intro__title {
+    margin-bottom: 16px;
+    font-weight: 800;
+    font-size: 52px;
+    line-height: 62px;
+    letter-spacing: -0.5px;
+    color: #D9E3EA;
+}
+
+.intro__suptitle {
+    padding: 0 60px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: -0.25px;
+    color: #9BA9B4;
+}
+
+.start__btn {
+    text-align: center;
+    padding-top: 32px;    
+}
+
+.intro__btn {
+    border: 0;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.25px;
+    color: #FFFFFF;
+    padding: 12px 32px;
+}
+
+.btn__start {
+    margin-right: 12px;
+    background-color: #5D5DFF;
+}
+
+.btn__more {
+    background-color: #33363A;
+}
+
+.intro__video {
+    position: relative;
+    margin-left: 208px;
+    padding-bottom: 128px;
+}
+
+.play {
+    margin-bottom: 18%;
+    margin-left: -50%;
+}
+
+/* Section__services */
+.section__services {
+    margin: 0 168px;
+    max-width: 1104px;
+    border-bottom: 3px solid #33363A;
+}
+
+.picture__title {
+    margin-bottom: 17px;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+    letter-spacing: -0.5px;
+    color: #D9E3EA;
+}
+
+.picture__suptitle {
+    padding: 0 168px;
+    margin-bottom: 80px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: -0.25px;
+    color: #9BA9B4;
+}
+
+.services__col {
+    display: flex;
+    width: 100%;
+}
+
+.services__item {
+    margin-bottom: 64px;
+    margin-right: 65px;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.services__item:last-child {
+    margin-right: 0;
+}
+
+.services__icon {
+    margin-bottom: 16px;
+    
+}
+
+.services__title {
+    margin-bottom: 8px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 34px;
+    text-align: center;
+    letter-spacing: -0.25px;
+    color: #D9E3EA;
+}
+
+.services__text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    letter-spacing: -0.25px;
+    color: #9BA9B4;
+}
+
+
+@media (max-width: 1104px) {
+    
+    .bg__img {
+        display: none;
+    }
+
+    .intro__title {
+        font-size: 42px;
+        line-height: 52px;
+    }
+
+    .intro__suptitle {
+        padding: 0 30px;
+    }
+
+    .intro__video {
+        padding-bottom: 100px;
+    }
+
+    .video {
+        width: 700px;
+        height: 393;
+    }
+
+    .play {
+        width: 100px;
+        height: 100px;
+        margin-left: -45%;
+    }
+
+    .picture__suptitle {
+        padding: 0 148px;
+    }
+
+}
+
+@media (max-width: 990px) {
+    
+    .intro__inner {
+        margin: 0 200px;
+    }
+
+    .start__btn {
+        padding-bottom: 30px;
+    }
+
+    .intro__video {
+        margin-left: 158px;
+    }
+
+    .play {
+        margin-left: -49%;
+    }
+
+    .intro__video {
+        padding-bottom: 80px;
+    }
+
+    .picture__title {
+        font-size: 30px;
+    }
+
+    .picture__suptitle {
+        padding: 0 108px;
+        margin-bottom: 45px;
+    }
+
+    .services__icon {
+        width: 44px;
+        height: 44px;
+    }
+
+    .services__title {
+        font-size: 19px;
+    }
+
+    .services__text {
+        font-size: 14px;
+    }
+ 
+}
+
+@media (max-width: 770px) {
+    
+  /* не встигла  адаптивка без коментарів*/ 
+
+}
+
+@media (max-width: 575px) {
+    
+   
+}
